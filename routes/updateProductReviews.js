@@ -18,7 +18,7 @@ module.exports = function productReviews () {
     db.reviews.update(
       { _id: req.body.id },
       { $set: { message: req.body.message } },
-      { multi: true }
+      { multi: false }
     ).then(
       result => {
         utils.solveIf(challenges.noSqlReviewsChallenge, () => { return result.modified > 1 })

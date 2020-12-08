@@ -241,3 +241,51 @@
   password: 'y&x5Z#f6W532ZUf$q3DsdgfgfgxxUsvoCUaDzFU'
   key: emma
   role: 'customer'
+-
+  email: AKimminichD
+  password: 'ZC(#U@Nf913f'
+  key: AKimminichD
+  role: 'admin'
+  securityQuestion:
+    id: 1
+    answer: 'ihgi43uchi3u54h03983'
+  feedback:
+    comment: '2/10 nie polecam'
+    rating: 1
+  address:
+    - fullName: 'Jacek Krzynówek'
+      mobileNum: 1234567891
+      zipCode: '0000'
+      streetAddress: 'Płocka 78'
+      city: 'Warsaw'
+      state: 'Mazovian'
+      country: 'Poland'
+  card:
+    - fullName: 'Moja złota karta'
+      cardNum: 4712943169046208
+      expMonth: 2
+      expYear: 2081
+-
+  email: KowalskiJan
+  password: 'ZU(#U@Nf223f'
+  key: KowalskiJan
+  role: 'customer'
+  securityQuestion:
+    id: 2
+    answer: 'aj20241gu0239gj9uh'
+  feedback:
+    comment: 'sprzedam peugeota'
+    rating: 5
+  address:
+    - fullName: 'Jan Kowalski'
+      mobileNum: 1234567890
+      zipCode: '0000'
+      streetAddress: 'Wiejska 75'
+      city: 'Warsaw'
+      state: 'Mazovian'
+      country: 'Poland'
+  card:
+    - fullName: 'Moja molibdenowa karta'
+      cardNum: 4716913969046208
+      expMonth: 2
+      expYear: 2081
